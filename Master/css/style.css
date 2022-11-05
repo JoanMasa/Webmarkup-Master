@@ -1,3 +1,74 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.WebsiteHeaderDesktopVersion {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.WebsiteHeaderDesktopVersion img {
+    height: 10em;
+    width: 10em;
+    background-size: contain;
+    padding: 10px;
+
+}
+
+
+
+.WebsiteTitle {
+    flex: 1;
+    order: 2;
+}
+
+.WebsitePayoff {
+    flex: 1;
+    order: 3;
+}
+
+.navigationSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-links li {
+    display: flex;
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.promoVIDEO {
+    display: flex;
+    justify-content: center;
+}
+
+.articleAsideSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.endpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FA0;
+    opacity: 50%;
+    color: #fff;
+}
+
+.endpage .copyrights {
+    display: flex;
+    align-items: flex-start;
+}
+
+.endpage .cookies {
+    display: flex;
+    align-items: flex-end;
 }
