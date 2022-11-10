@@ -56,6 +56,39 @@ body {
     .articleAsideSection {
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+    }
+
+  
+    .articleAsideSection .sectionArticle1 {
+        padding: 1em;
+    }
+
+
+    .articleAsideSection .sectionArticle1 img {
+        height: 10em;
+        width: 10em;
+        float: right;
+    }
+
+    .articleAsideSection .sectionArticle2 {
+        padding: 1em;
+    }
+
+    .articleAsideSection .sectionArticle2 img {
+        height: 10em;
+        width: 10em;
+        float: right;
+    }
+
+    .articleAsideSection .sectionArticle3 {
+        padding: 1em;
+    }
+
+    .articleAsideSection .sectionArticle3 img {
+        height: 10em;
+        width: 10em;
+        float: right;
     }
 
     .sectionWrapper {
@@ -64,7 +97,7 @@ body {
         grid-template-rows: repeat(7, auto);
         grid-column-gap: 1em;
         grid-row-gap: 1em;
-       
+
 
 
     }
@@ -112,7 +145,7 @@ body {
         background-color: rgb(192, 192, 192);
         padding: 5em;
     }
-    
+
 
     .four {
         grid-area: 4 / 3 / 7 / 4;
@@ -177,7 +210,7 @@ body {
 
     .pricingContentWrapper {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(7, auto);
         padding-bottom: 2em;
         padding-top: 1em;
@@ -185,18 +218,39 @@ body {
         grid-row-gap: 1em;
     }
 
-    .articleInnovation {
-        grid-area: 1 / 1 / 2 / 4;
-        text-align: center;
-        color: #000000;
-        background-color: rgb(192, 192, 192);
-    }
+
 
     .UContent {
         grid-area: 2 / 3 / 8 / 4;
         text-align: center;
         color: #000000;
         background-color: rgb(192, 192, 192);
+        padding: 0;
+    }
+
+    .UContent ol {
+        padding: 0;
+    }
+
+    .asideOne img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideTwo img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideThree img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
     }
 
     .tableContent {
@@ -317,6 +371,7 @@ body {
     .tableAsiders {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         margin: 20px;
     }
 
@@ -328,7 +383,38 @@ body {
     .articleAsideSection {
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+    }
 
+    .articleAsideSection .sectionArticle1 {
+        padding: 1em;
+    }
+
+
+    .articleAsideSection .sectionArticle1 img {
+        height: 10em;
+        width: 10em;
+        float: left;
+    }
+
+    .articleAsideSection .sectionArticle2 {
+        padding: 1em;
+    }
+
+    .articleAsideSection .sectionArticle2 img {
+        height: 10em;
+        width: 10em;
+        float: left;
+    }
+
+    .articleAsideSection .sectionArticle3 {
+        padding: 1em;
+    }
+
+    .articleAsideSection .sectionArticle3 img {
+        height: 10em;
+        width: 10em;
+        float: left;
     }
 
     .articleAsideSection .asds {
@@ -453,6 +539,33 @@ body {
         text-align: center;
         color: #000000;
         background-color: rgb(192, 192, 192);
+        padding-left: 0;
+    }
+
+
+    .UContent ol {
+        padding: 0;
+    }
+
+    .asideOne img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideTwo img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideThree img {
+        height: 15em;
+        width: 15em;
+        background-size: contain;
+        padding: 10px;
     }
 
     .tableContent {
@@ -588,8 +701,44 @@ body {
 
     .articleAsideSection {
         display: flex;
-        align-items: center;
-        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .articleAsideSection .sectionArticle1 {
+        flex: 1;
+        order: 3;
+    }
+
+
+    .articleAsideSection .sectionArticle1 img {
+        height: 10em;
+        width: 10em;
+        margin: 2em;
+        float: center;
+    }
+
+    .articleAsideSection .sectionArticle2 {
+        flex: 1;
+        order: 2;
+    }
+
+    .articleAsideSection .sectionArticle2 img {
+        height: 10em;
+        width: 10em;
+        margin: 2em;
+        float: center;
+    }
+
+    .articleAsideSection .sectionArticle3 {
+        flex: 1;
+        order: 1;
+    }
+
+    .articleAsideSection .sectionArticle3 img {
+        height: 10em;
+        width: 10em;
+        margin: 2em;
+        float: center;
     }
 
     .articleAsideSection .asds {
@@ -712,6 +861,32 @@ body {
         text-align: center;
         color: #000000;
         background-color: rgb(192, 192, 192);
+        padding-left: 0px;
+    }
+
+    .UContent ol {
+        padding: 0;
+    }
+
+    .asideOne img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideTwo img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .asideThree img {
+        height: 10em;
+        width: 10em;
+        background-size: contain;
+        padding: 10px;
     }
 
     .tableContent {
