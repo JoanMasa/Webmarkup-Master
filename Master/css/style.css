@@ -218,8 +218,6 @@ body {
         grid-row-gap: 1em;
     }
 
-
-
     .UContent {
         grid-area: 2 / 3 / 8 / 4;
         text-align: center;
@@ -286,9 +284,12 @@ body {
 
     .contact2 {
         grid-area: 2 / 1 / 7 / 3;
-        text-align: center;
+        display: grid;
+        align-items: center;
+        justify-items: center;
         color: #000000;
         background-color: rgb(192, 192, 192);
+
     }
 
     .contact3 {
@@ -296,6 +297,13 @@ body {
         text-align: center;
         color: #000000;
         background-color: rgb(192, 192, 192);
+    }
+
+    .AsideContactimg img{
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
     }
 
 
@@ -615,6 +623,14 @@ body {
         color: #000000;
         background-color: rgb(192, 192, 192);
     }
+    
+    .AsideContactimg img{
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
+    }
+
 
     .endpage {
         display: flex;
@@ -931,6 +947,14 @@ body {
         text-align: center;
         color: #000000;
         background-color: rgb(192, 192, 192);
+    }
+
+    
+    .AsideContactimg img{
+        height: 12em;
+        width: 12em;
+        background-size: contain;
+        padding: 10px;
     }
 
 

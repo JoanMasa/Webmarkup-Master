@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="..\css\style.css">
 
 
-    <title>Ludus technologies</title>
+    <title>Contact</title>
 
 
 </head>
@@ -74,17 +74,16 @@
         </section>
         <section class="contact2">
             <section id="form-tab">
-                <form action="formsub.html">
-                    <label for="vname">Full Name</label>
-                    <input type="text" id="vname" name="visitorname" placeholder="Full name..">
-
-                    <label for="email">E-mail</label>
-                    <input type="email" id="mail" name="mail" placeholder="E-mail..">
-
-                    <label for="message">Message</label>
-                    <input type="textarea" id="text" name="text" placeholder="Add Message..">
-
-                    <input type="submit" value="Submit">
+                <form action="/action_page.php">
+                    <fieldset>
+                        <legend>Contact:</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here:</textarea><br><br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
                 </form>
             </section>
         </section>
@@ -92,9 +91,12 @@
 
         <!-- Aside -->
         <ul class="contact3">
-            <ol><a href="https://www.inholland.nl"><img src="" alt="">as</a></ol>
-            <ol><a href="https://www.inholland.nl"><img src="" alt="">asd</a></ol>
-            <ol><a href="https://www.inholland.nl"><img src="" alt="">as</a></ol>
+            <ol class="AsideContactimg"><a href="https://www.inholland.nl"><img
+                        src="../img/aw-ultra-tough-mudder-1.webp" alt=""></a></ol>
+            <ol class="AsideContactimg"><a href="https://www.inholland.nl"><img src="../img/images.jpeg" alt=""></a>
+            </ol>
+            <ol class="AsideContactimg"><a href="https://www.inholland.nl"><img
+                        src="../img/static__dqmlpltyhqoi_large.jpg" alt=""></a></ol>
         </ul>
     </main>
 
