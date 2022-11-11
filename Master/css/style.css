@@ -1,18 +1,24 @@
+/* basic styling for the whole website */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #bba0a0;
 }
 
+/* removing padding from all ordered lists */
+
 ol {
     padding: 0;
 }
 
+/* Code for desktop screen ration */
 @media screen and (min-width: 1280px) {
 
+    /* hamburger navigation */
     .ham-nav {
         display: none;
     }
 
+    /* Desktop Navigation */
     .WebsiteHeaderDesktopVersion {
         display: flex;
         flex-direction: column;
@@ -31,7 +37,7 @@ ol {
     .WebsiteTitle {
         flex: 1;
         order: 2;
-        
+
     }
 
     .WebsitePayoff {
@@ -39,11 +45,13 @@ ol {
         order: 3;
     }
 
+    /* Styling for nav bar */
+
     .navigationSection {
         display: flex;
         justify-content: center;
         align-items: center;
-      
+
         padding: 2em;
         background-color: #000000;
     }
@@ -52,35 +60,40 @@ ol {
         display: flex;
         display: inline-block;
         padding: 0 20px;
-       
-        
+
+
     }
 
-    .nav-links li a{
+    .nav-links li a {
         color: #ffffff;
     }
+
+    /* Promovideo styling */
 
     .promoVIDEO {
         display: flex;
         justify-content: center;
     }
 
+    /* Styling for articles  */
+
     .articleAsideSection {
         display: flex;
         max-width: 100%;
-        
+
     }
+
     .sectionIndexMain {
         flex: 0 100%;
-		height: 100px;
+        height: 100px;
         padding: 20px;
     }
 
     .asds {
         flex: 0 30%;
-		height: 100px;
+        height: 100px;
         padding: 20px;
-        
+
     }
 
     .articleAsideSection .sectionArticle1 {
@@ -120,6 +133,7 @@ ol {
         padding-bottom: 3em;
     }
 
+    /* Styling for section in product page */
     .sectionWrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -185,6 +199,7 @@ ol {
         padding-right: 1em;
     }
 
+    /* Styling for aside in product page */
     .AsideWrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -217,7 +232,7 @@ ol {
     }
 
     .as3 img {
-        height:13em;
+        height: 13em;
         width: 13em;
         background-size: contain;
         padding: 10px;
@@ -237,6 +252,7 @@ ol {
         background-color: rgb(229, 229, 229);
     }
 
+    /* Styling for content of pricing page */
     .pricingContentWrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -280,6 +296,7 @@ ol {
         padding: 10px;
     }
 
+    /* styling for table */
     .tableContent {
         grid-area: 2 / 1 / 8 / 3;
         color: #000000;
@@ -293,13 +310,14 @@ ol {
         border: 2px solid;
     }
 
+    /* styling for contact page */
 
     .contactWrapper {
         display: grid;
         grid-template-columns: repeat(3, auto);
         grid-row-gap: 1em;
         justify-content: space-evenly;
-       
+
 
 
     }
@@ -324,6 +342,7 @@ ol {
         padding: 0;
     }
 
+    /* styling for aside section in contact page */
 
     .asideContact1 img {
         height: 13em;
@@ -346,6 +365,8 @@ ol {
         padding: 30px;
     }
 
+    /* styling for footer and copyright */
+
     .endpage {
         background-color: #FA0;
         opacity: 50%;
@@ -359,7 +380,7 @@ ol {
         padding-left: 20px;
     }
 
-    .endpage  p {
+    .endpage p {
         float: left;
     }
 
@@ -374,12 +395,15 @@ ol {
     }
 }
 
+/* Code for table screen ratio */
 @media only screen and (max-width: 1279px) and (min-width: 481px) {
+
+    /* styling for hamburger nav */
     .ham-nav {
         display: none;
     }
 
-
+    /* styling for desktop nav */
     .WebsiteHeaderDesktopVersion {
         display: flex;
         flex-direction: column;
@@ -404,6 +428,7 @@ ol {
         order: 3;
     }
 
+    /* styling for navbar */
     .navigationSection {
         display: flex;
         justify-content: center;
@@ -419,7 +444,7 @@ ol {
 
     }
 
-    .nav-links li a{
+    .nav-links li a {
         color: #ffffff;
     }
 
@@ -430,27 +455,33 @@ ol {
         margin: 20px;
     }
 
+    /* promo video styling */
+
     .promoVIDEO {
         display: flex;
         justify-content: center;
     }
 
+    /* index page styling */
+
     .articleAsideSection {
         display: flex;
         max-width: 100%;
-        
+
     }
+
     .sectionIndexMain {
         flex: 0 100%;
-		height: 100px;
+        height: 100px;
         padding: 20px;
     }
 
     .asds {
         flex: 0 30%;
-		height: 100px;
+        height: 100px;
         padding: 20px;
     }
+
     .articleAsideSection .sectionArticle1 {
         padding: 4em;
     }
@@ -460,7 +491,7 @@ ol {
         height: 10em;
         width: 10em;
         float: left;
-        
+
     }
 
     .articleAsideSection .sectionArticle2 {
@@ -471,7 +502,7 @@ ol {
         height: 10em;
         width: 10em;
         float: left;
-      
+
     }
 
     .articleAsideSection .sectionArticle3 {
@@ -482,12 +513,14 @@ ol {
         height: 10em;
         width: 10em;
         float: left;
-       
+
     }
 
     .articleAsideSection .asds {
         display: none;
     }
+
+    /* section in index page styling */
 
     .sectionWrapper {
         display: grid;
@@ -537,6 +570,8 @@ ol {
         display: none;
     }
 
+    /* aside in product page styling */
+
     .AsideWrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -587,6 +622,7 @@ ol {
     }
 
 
+    /* pricing page styling */
     .pricingContentWrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -595,6 +631,7 @@ ol {
         grid-row-gap: 1em;
     }
 
+    /* innovation article stylings */
     .articleInnovation {
         grid-area: 1 / 1 / 2 / 3;
         text-align: center;
@@ -602,6 +639,7 @@ ol {
         background-color: rgb(229, 229, 229);
     }
 
+    /* aside content styling */
     .UContent {
         grid-area: 8 / 1 / 10 / 3;
         text-align: center;
@@ -610,7 +648,7 @@ ol {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
+
     }
 
     .UContent ol {
@@ -638,6 +676,7 @@ ol {
         padding: 10px;
     }
 
+    /* table of pricing page styling */
     .tableContent {
         grid-area: 2 / 1 / 8 / 3;
         color: #000000;
@@ -655,6 +694,7 @@ ol {
         display: none;
     }
 
+    /* contact page styling */
     .contactWrapper {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -666,7 +706,7 @@ ol {
 
     }
 
-    
+
     .contact2 {
         grid-area: 2 / 1 / 8 / 2;
         display: grid;
@@ -686,6 +726,8 @@ ol {
         background-color: rgb(229, 229, 229);
         padding: 0;
     }
+
+    /* contact img styling  */
     .asideContact1 img {
         height: 10em;
         width: 10em;
@@ -707,7 +749,8 @@ ol {
         padding: 20px;
     }
 
-   
+    /* footer styling and copyright styling */
+
     .endpage {
         background-color: #FA0;
         opacity: 50%;
@@ -721,7 +764,7 @@ ol {
         padding-left: 20px;
     }
 
-    .endpage  p {
+    .endpage p {
         float: left;
     }
 
@@ -733,8 +776,10 @@ ol {
 
 }
 
+/* Code for phone screen ration */
 @media only screen and (max-width: 480px) {
 
+    /* styling of desktop nav  */
     .WebsiteHeaderDesktopVersion {
         display: flex;
         flex-direction: row;
@@ -755,6 +800,7 @@ ol {
         display: none;
     }
 
+    /* styling for ham nav */
     .WebsiteHeaderDesktopVersion .ham-nav {
         flex-direction: row;
         justify-content: flex-end;
@@ -780,6 +826,7 @@ ol {
         display: block;
     }
 
+    /* navbar styling */
     .navigationSection {
         display: none;
 
@@ -790,7 +837,6 @@ ol {
 
     }
 
-
     .tableAsiders {
         display: flex;
         justify-content: space-between;
@@ -799,9 +845,13 @@ ol {
 
     }
 
+    /* promovideo styling */
+
     .promoVIDEO {
         display: none;
     }
+
+    /* index page styling */
 
     .articleAsideSection {
         display: flex;
@@ -848,6 +898,7 @@ ol {
         display: none;
     }
 
+    /* product page styling */
     .sectionWrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -892,6 +943,8 @@ ol {
     .four {
         display: none;
     }
+
+    /* aside in product page styling */
 
     .AsideWrapper {
         display: grid;
@@ -945,6 +998,8 @@ ol {
         padding: 10px;
     }
 
+    /* pricing page styling */
+
     .pricingContentWrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -957,6 +1012,7 @@ ol {
         display: none;
     }
 
+    /* aside content styling */
     .UContent {
         grid-area: 7 / 1 / 11 / 3;
         text-align: center;
@@ -989,6 +1045,7 @@ ol {
         padding: 10px;
     }
 
+    /* table styling for pricing page */
     .tableContent {
         grid-area: 1 / 1 / 7 / 3;
         color: #000000;
@@ -1001,6 +1058,8 @@ ol {
     .tableContent, td, th {
         border: 2px solid;
     }
+
+    /* Contact page styling */
 
     .contactWrapper {
         display: grid;
@@ -1024,7 +1083,9 @@ ol {
         background-color: rgb(229, 229, 229);
         padding: 0;
     }
-   
+
+    /* aside images in contact page styling */
+
     .asideContact1 img {
         height: 12em;
         width: 12em;
@@ -1046,6 +1107,8 @@ ol {
         padding: 10px;
     }
 
+    /* footer styling */
+
     .endpage {
         background-color: #FA0;
         opacity: 50%;
@@ -1060,7 +1123,7 @@ ol {
         padding-left: 20px;
     }
 
-    .endpage  p {
+    .endpage p {
         float: left;
     }
 
