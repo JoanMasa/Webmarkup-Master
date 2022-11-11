@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 ol {
     padding: 0;
 }
@@ -62,7 +63,7 @@ ol {
         flex-direction: column;
     }
 
-  
+
     .articleAsideSection .sectionArticle1 {
         padding: 1em;
     }
@@ -229,7 +230,7 @@ ol {
         padding: 0;
     }
 
-   
+
 
     .contact3 ol {
         padding: 0;
@@ -307,22 +308,26 @@ ol {
 
 
     .endpage {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
         background-color: #FA0;
         opacity: 50%;
-        color: #fff;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-left: 20px;
     }
 
-    .endpage .copyrights {
-        display: flex;
-        align-items: flex-start;
+    .endpage  p {
+        float: left;
     }
 
     .endpage .cookies {
-        display: flex;
-        align-items: flex-end;
+        width: 20%;
+        float: right;
+        padding-left: 20px;
     }
 
     .tableAsiders {
@@ -621,26 +626,31 @@ ol {
         text-align: center;
         color: #000000;
         background-color: rgb(229, 229, 229);
-       
+
     }
 
+   
     .endpage {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
         background-color: #FA0;
         opacity: 50%;
-        color: #fff;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-left: 20px;
     }
 
-    .endpage .copyrights {
-        display: flex;
-        align-items: flex-start;
+    .endpage  p {
+        float: left;
     }
 
     .endpage .cookies {
-        display: flex;
-        align-items: flex-end;
+        width: 20%;
+        float: right;
+        padding-left: 20px;
     }
 
 }
@@ -654,12 +664,12 @@ ol {
     }
 
     .WebsiteHeaderDesktopVersion h1 {
-       font-size: 20px;
+        font-size: 20px;
     }
 
     .WebsiteHeaderDesktopVersion h2 {
         font-size: 20px;
-     }
+    }
 
     .WebsiteHeaderDesktopVersion .logo {
 
@@ -678,12 +688,12 @@ ol {
 
     .WebsiteHeaderDesktopVersion .dropdown-content {
         display: none;
-       
+
         background-color: #f9f9f9;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         padding: 12px 16px;
-        
+
     }
 
 
@@ -949,8 +959,8 @@ ol {
         background-color: rgb(229, 229, 229);
     }
 
-    
-    .AsideContactimg img{
+
+    .AsideContactimg img {
         height: 12em;
         width: 12em;
         background-size: contain;
@@ -959,23 +969,28 @@ ol {
 
 
     .endpage {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
         background-color: #FA0;
         opacity: 50%;
-        color: #fff;
-
+        padding: 10px;
+        text-align: center;
+        font-size: 11px;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-left: 20px;
     }
 
-    .endpage .copyrights {
-        display: flex;
-        align-items: flex-start;
+    .endpage  p {
+        float: left;
     }
 
     .endpage .cookies {
-        display: flex;
-        align-items: flex-end;
+        width: 20%;
+        float: right;
+        padding-left: 20px;
     }
+
 
 }
