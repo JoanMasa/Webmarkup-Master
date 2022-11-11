@@ -2,6 +2,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+ol {
+    padding: 0;
+}
 
 @media screen and (min-width: 1280px) {
 
@@ -106,7 +109,7 @@ body {
         grid-area: 1 / 1 / 3 / 2;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding-left: 1em;
         padding-right: 1em;
 
@@ -116,7 +119,7 @@ body {
         grid-area: 3 / 1 / 8 / 2;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding: 5em;
     }
 
@@ -124,7 +127,7 @@ body {
         grid-area: 1 / 3 / 4 / 4;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding-left: 1em;
         padding-right: 1em;
     }
@@ -133,7 +136,7 @@ body {
         grid-area: 7 / 2 / 8 / 4;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding-left: 1em;
         padding-right: 1em;
     }
@@ -142,7 +145,7 @@ body {
         grid-area: 1 / 2 / 7 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding: 5em;
     }
 
@@ -151,7 +154,7 @@ body {
         grid-area: 4 / 3 / 7 / 4;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding-left: 1em;
         padding-right: 1em;
     }
@@ -170,7 +173,7 @@ body {
         grid-area: 1 / 1 / 3 / 2;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .as1 img {
@@ -198,14 +201,14 @@ body {
         grid-area: 1 / 2 / 3 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .as3 {
         grid-area: 1 / 3 / 3 / 4;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .pricingContentWrapper {
@@ -222,11 +225,13 @@ body {
         grid-area: 2 / 3 / 8 / 4;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding: 0;
     }
 
-    .UContent ol {
+   
+
+    .contact3 ol {
         padding: 0;
     }
 
@@ -255,7 +260,7 @@ body {
         grid-area: 2 / 1 / 8 / 3;
         color: #000000;
         text-align: center;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         width: 100%;
         border-collapse: collapse;
     }
@@ -278,7 +283,7 @@ body {
         grid-area: 1 / 1 / 2 / 4;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
 
     }
 
@@ -288,7 +293,7 @@ body {
         align-items: center;
         justify-items: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
 
     }
 
@@ -296,15 +301,9 @@ body {
         grid-area: 2 / 3 / 7 / 4;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
-    .AsideContactimg img{
-        height: 12em;
-        width: 12em;
-        background-size: contain;
-        padding: 10px;
-    }
 
 
     .endpage {
@@ -442,35 +441,35 @@ body {
         grid-area: 1 / 1 / 3 / 2;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .two {
         grid-area: 1 / 2 / 4 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .three {
         grid-area: 4 / 2 / 7 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .five {
         grid-area: 3 / 1 / 7 / 2;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .six {
         grid-area: 7 / 1 / 9 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .four {
@@ -491,14 +490,14 @@ body {
         grid-area: 1 / 1 / 3 / 2;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .as2 {
         grid-area: 1 / 2 / 3 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .as3 {
@@ -539,14 +538,14 @@ body {
         grid-area: 1 / 1 / 2 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .UContent {
         grid-area: 8 / 1 / 10 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding-left: 0;
     }
 
@@ -580,7 +579,7 @@ body {
         grid-area: 2 / 1 / 8 / 3;
         color: #000000;
         text-align: center;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         width: 100%;
         border-collapse: collapse;
     }
@@ -606,7 +605,7 @@ body {
         grid-area: 1 / 1 / 2 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
 
     }
 
@@ -614,23 +613,16 @@ body {
         grid-area: 2 / 1 / 8 / 2;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .contact3 {
         grid-area: 2 / 2 / 8 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
+       
     }
-    
-    .AsideContactimg img{
-        height: 12em;
-        width: 12em;
-        background-size: contain;
-        padding: 10px;
-    }
-
 
     .endpage {
         display: flex;
@@ -657,9 +649,17 @@ body {
 
     .WebsiteHeaderDesktopVersion {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: flex-start;
     }
+
+    .WebsiteHeaderDesktopVersion h1 {
+       font-size: 20px;
+    }
+
+    .WebsiteHeaderDesktopVersion h2 {
+        font-size: 20px;
+     }
 
     .WebsiteHeaderDesktopVersion .logo {
 
@@ -667,8 +667,8 @@ body {
     }
 
     .WebsiteHeaderDesktopVersion .ham-nav {
-        position: relative;
-        display: inline-block;
+        flex-direction: row;
+        justify-content: flex-end;
     }
 
     .WebsiteHeaderDesktopVersion .ham-nav .hamnavIMG {
@@ -678,12 +678,12 @@ body {
 
     .WebsiteHeaderDesktopVersion .dropdown-content {
         display: none;
-        position: absolute;
+       
         background-color: #f9f9f9;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         padding: 12px 16px;
-        z-index: 1;
+        
     }
 
 
@@ -775,28 +775,28 @@ body {
         grid-area: 1 / 1 / 4 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .three {
         grid-area: 4 / 1 / 7 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .two {
         grid-area: 7 / 1 / 10 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .one {
         grid-area: 10 / 1 / 13 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .six {
@@ -821,21 +821,21 @@ body {
         grid-area: 1 / 1 / 2 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .as2 {
         grid-area: 2 / 1 / 3 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .as3 {
         grid-area: 3 / 1 / 4 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .as1 img {
@@ -876,7 +876,7 @@ body {
         grid-area: 7 / 1 / 11 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         padding-left: 0px;
     }
 
@@ -909,7 +909,7 @@ body {
         grid-area: 1 / 1 / 7 / 3;
         color: #000000;
         text-align: center;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
         width: 100%;
         border-collapse: collapse;
     }
@@ -931,7 +931,7 @@ body {
         grid-area: 1 / 1 / 2 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
 
     }
 
@@ -939,14 +939,14 @@ body {
         grid-area: 2 / 1 / 7 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     .contact3 {
         grid-area: 7 / 1 / 11 / 3;
         text-align: center;
         color: #000000;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(229, 229, 229);
     }
 
     
